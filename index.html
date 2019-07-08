@@ -10,12 +10,17 @@
   <body>
     <div class="container">
       <div class="card">
-        <img id="img-preview" />
+        <img id="img-preview" src="https://createwebsite.net/wp-content/uploads/2015/09/Preloader.gif" />
         <div class="card-footer">
           <input type="file" name="" id="img-uploader" />
+          <!-- <progress id="img-upload-bar" max="100" value="0"></progress> -->
+          <div class="progress-container">
+            <div class="progress" id="progress-bar"></div>
+          </div>
         </div>
       </div>
     </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
